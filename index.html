@@ -168,7 +168,7 @@
 
             <div class="portrait-title">
               <h2 itemprop="name">Kartik Shenoy</h2>
-              <h3 itemprop="jobTitle">Machine Learning Engineer II</h3>
+              <h3 itemprop="jobTitle">Senior Machine Learning Engineer</h3>
 
               <!-- <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
                 <span itemprop="name">Actively seeking full-time opportunities for January 2023</span>
@@ -188,7 +188,7 @@
 
 
               <li>
-                <a itemprop="sameAs" href="pdf/Resume.pdf" target="_blank">
+                <a itemprop="sameAs" href="pdf/CV.pdf" target="_blank">
                   <i class="fa fa-file-pdf-o big-icon"></i>
                 </a>
               </li>
@@ -196,7 +196,7 @@
 
               <li>
                 <!-- <a itemprop="sameAs" href="mailto:kshenoy@usc.edu" target="_blank"> -->
-                <a itemprop="sameAs" href="mailto:kshenoy@usc.edu" target="_blank">
+                <a itemprop="sameAs" href="mailto:kartik.shenoyy@gmail.com" target="_blank">
                   <i class="fa fa-envelope big-icon"></i>
                 </a>
               </li>
@@ -230,6 +230,15 @@
               </li>
 
 
+              <li>
+                <a itemprop="sameAs" href="https://scholar.google.com/citations?user=pXGhaUcAAAAJ&hl=en" target="_blank">
+                    <i class="ai ai-google-scholar big-icon"></i>
+                </a>
+              </li>
+
+              
+
+
 
 
               <!-- <li>
@@ -249,8 +258,8 @@
           <h1 id="about-me">About Me</h1>
 
           <p>
-              I currently work as a Machine Learning Engineer II at BILL (formerly Bill.com) where 
-              I design and implement deep learning models to improve the features of our software.
+              I currently work as a Senior Machine Learning Engineer at BILL (formerly Bill.com) where I lead designing of the intelligence layer of LLM agents for various use cases.
+              I also design and implement deep learning models to improve the features of our software.
               </br><br>
               I completed my Masters in <a href="https://www.cs.usc.edu/" target="_blank">Computer Science</a> at <a href="https://www.usc.edu/" target="_blank">University of Southern
               California</a> with Honors. (Graduation Date: December 2022). 
@@ -258,8 +267,6 @@
               Institute</a> as a research assistant where my work was centered around language models and various aspects of knowledge graphs. 
               At the same time, I was a Teaching Assistant for CSCI 561 and CSCI 570.
               </br><br>
-              Prior to this, I was as a Machine Learning Engineer Intern at Bill.com where I worked on Optical Character Recognition 
-              for amount detection from invoices and statements. 
               I have previously worked as a Software Developer at Barclays Global Service Centre, India where I had worked on a wide
               variety of tech stacks including Natural Language Processing and Web Development.</br><br>
           </p>
@@ -273,9 +280,9 @@
               recognizing the signs and gestures demonstrated by the hearing- and speech-impaired and translate into
               voice.
               </br></br>
-              Apart from my academic endeavours, I play the Guitar and Harmonium.
+              Apart from my academic endeavours, I play the Guitar, love to hike and snowboard.
               </br></br>
-              You can find my <b>Resume</b> <a href="pdf/Resume.pdf" target="_blank">here</a> and
+              You can find my <b>Resume</b> <a href="pdf/CV.pdf" target="_blank">here</a> and
               <b>papers</b> or reports for all the above work in the publications section.
               </br></br>
           </p>
@@ -287,6 +294,8 @@
             <div class="col-sm-5">
               <h3>Interests</h3>
               <ul class="ul-interests" style="margin-left: -20px;">
+                <li>LLM Agents</li>
+
                 <li>Natural Language Processing</li>
 
                 <li>Computer Vision</li>
@@ -483,14 +492,32 @@
         <div class="col-xs-12 col-md-12">
           <div class="containerTim">
 
+            <div class="timeline-block timeline-block-right">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3>BILL</h3>
+                <h4>Aug 2024 - Present</h4>
+                <span>Senior Machine Learning Engineer, Product AI</span>
+                <p>
+                  Leading the design of the intelligence layer of LLM agents for various use cases including customer support, 
+                  invoice field extraction. <br/><br/>
+
+                  Contributed to the development of an end-to-end pipeline for field extraction for invoices using a rules-based engine to get low-latency and high-quality results. This pipeline achieves a p90 latency of under 350ms and a precision of 95%<br/><br/>
+
+                  Created an XGB ranker algorithm using several invoice and customer features that achieves a top-1 accuracy of 89% for entity search on document text-embeddings based retrieval.
+                </p>
+              </div>
+            </div>
+
             <div class="timeline-block timeline-block-left">
               <div class="marker"></div>
               <div class="timeline-content">
                 <h3>BILL</h3>
-                <h4>February 2023 - Present</h4>
+                <h4>February 2023 - Aug 2024</h4>
                 <span>Machine Learning Engineer II, Network and Payments ML</span>
                 <p>
-                  Designing and implementing deep learning models to improve the features of our software.
+                  Designed a proprietary logo extraction model from invoices using YOLOv8 model with a mAP of 0.9 and a similarity model - ConvNext with 87% accuracy to assist in identifying similar invoices with logos <br/><br/>
+                  Enhanced a document similarity model to improve de-duplication of merchants in the database using Siamese-BERT model which has increased the eligible transaction payment volume by 10% through enhanced payment rails
                 </p>
               </div>
             </div>
@@ -597,6 +624,40 @@
           <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
             <div class="row">
               <div class="col-md-12">
+                <a href="https://www.semantic-web-journal.net/system/files/swj3330.pdf">
+                  <img src="img/Concept_similarity_publication.png" class="pub-banner" itemprop="image">
+                </a>
+              </div>
+              <div class="col-md-12">
+                <h3 class="article-title" itemprop="name">
+                  <a href="https://www.semantic-web-journal.net/system/files/swj3330.pdf" itemprop="url">
+                    A study of concept similarity in Wikidata
+                  </a>
+                </h3>
+                <div class="pub-abstract" itemprop="text">
+                  We design a framework to determine concept similarity in large knowledge graphs such as Wikidata and Probase
+                  and experiment using language embeddings, graph embeddings, knowledge injections to determine the impact in 
+                  enhancing the similarity scores.
+                </div>
+                <div class="pub-authors" itemprop="author">
+                  Filip Ilievski, Kartik Shenoy, Hans Chalupsky, et al.
+                </div>
+                <div class="pub-publication">
+                  Semantic Web Journal (October 2023)
+                </div>
+                <div class="pub-links">
+                  <a href="https://www.semantic-web-journal.net/system/files/swj3330.pdf" target="_blank"
+                    class="btn btn-primary btn-outline btn-xs">
+                    PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="row">
+              <div class="col-md-12">
                 <a href="https://d7qzviu3xw2xc.cloudfront.net/alexa/alexaprize/docs/sgc4/USC-Viola.pdf">
                   <img src="img/viola_img.png" class="pub-banner" itemprop="image">
                 </a>
@@ -661,7 +722,7 @@
                   Kartik Shenoy, Filip Ilievski, Daniel Garijo, Daniel Schwabe, Pedro Szekely
                 </div>
                 <div class="pub-publication">
-                  Journal of Web Semantics. Elsevier.
+                  Journal of Web Semantics. Elsevier. (July 2021)
                 </div>
                 <div class="pub-links">
                   <a href="https://github.com/usc-isi-i2/wd-quality" target="_blank"
@@ -707,6 +768,40 @@
                     Code
                   </a>
                   <a href="https://arxiv.org/pdf/2108.07119.pdf" target="_blank"
+                    class="btn btn-primary btn-outline btn-xs">
+                    PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="https://arxiv.org/pdf/2210.00620">
+                  <img src="img/wikidata_paper-min.png" class="pub-banner" itemprop="image">
+                </a>
+              </div>
+              <div class="col-md-12">
+                <h3 class="article-title" itemprop="name">
+                  <a href="https://arxiv.org/pdf/2210.00620" itemprop="url">
+                    Does Wikidata Support Analogical Reasoning?
+                  </a>
+                </h3>
+                <div class="pub-abstract" itemprop="text">
+                  We we investigate whether the knowledge in Wikidata supports analogical reasoning by using different types
+                  of text embeddings across different categories of relations defined in Wikidata.
+                </div>
+                <div class="pub-authors" itemprop="author">
+                  Filip Ilievski, Jay Pujara, and Kartik Shenoy
+                </div>
+                <div class="pub-publication">
+                  Iberoamerican Conference on Knowledge Graphs and Semantic Web (2021)
+                </div>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/pdf/2210.00620" target="_blank"
                     class="btn btn-primary btn-outline btn-xs">
                     PDF
                   </a>
