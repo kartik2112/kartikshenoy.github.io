@@ -358,6 +358,8 @@
                   <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
 
                   <!-- <a href="#" data-filter=".ri" class="btn btn-primary btn-large">Research Internships</a> -->
+                  
+                  <a href="#" data-filter=".nlp" class="btn btn-primary btn-large">NLP</a>
 
                   <a href="#" data-filter=".cv" class="btn btn-primary btn-large">Computer Vision</a>
 
@@ -373,6 +375,28 @@
 
 
           <div id="container-projects" class="row isotope">
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 project-item isotope-item nlp">
+              <div class="card">
+                <a href="https://kartik2112.github.io/usc-hpv-chat-assistant/" title="" target="_blank" class="card-image hover-overlay">
+                  <img src="img/HPV Demo Compressed.gif" alt="" class="img-responsive">
+                </a>
+                <div class="card-text">
+                  <h4><a href="https://kartik2112.github.io/usc-hpv-chat-assistant/" target="_blank">
+                      USC HPV Chat Assistant
+                    </a></h4>
+                  <div class="card-desription">
+                    <p>
+                      Built an end-to-end RAG pipeline and chat assistant to 
+                      promote HPV vaccination to USC patients using ChromaDB, FastAPI, OpenAI (text model and TTS model).
+                      <a href="https://github.com/kartik2112/usc-hpv-chat-assistant" target="_blank">Github Link</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 project-item isotope-item cv">
               <div class="card">
@@ -499,12 +523,23 @@
                 <h4>Aug 2024 - Present</h4>
                 <span>Senior Machine Learning Engineer, Product AI</span>
                 <p>
-                  Leading the design of the intelligence layer of LLM agents for various use cases including customer support, 
-                  invoice field extraction. <br/><br/>
+                  Spearheaded the company's first entity search system using document embeddings by working on 
+                  pointwise LTR (Learning to Rank) algorithm and XGB ranker that achieves a top-1 accuracy of 
+                  89% using invoices and customer features. Retrieval is done against 27M embeddings 
+                  and the RTT is 280ms on the OpenSearch VectorDB backend <br/><br/>
+                  
+                  Led the design of the intelligence layer of the LLM agents for various use cases 
+                  including customer support, invoice field extraction while mentoring 
+                  junior engineers and guiding other non-technical stakeholders on the use of the 
+                  toolkit such as n8n, Braintrust, ElevenLabs, RetellAI 
+                  and various prompt engineering techniques, evaluations <br/><br/>
+
+                  Contributed to a POC of multi-task learning on documents for field extraction 
+                  using LayoutLM (2D attention transformer) embedding layer and 
+                  Siamese network-based classification head achieving 89% classification accuracy 
+                  and NER heads achieving 76% document field extraction accuracy<br/><br/>
 
                   Contributed to the development of an end-to-end pipeline for field extraction for invoices using a rules-based engine to get low-latency and high-quality results. This pipeline achieves a p90 latency of under 350ms and a precision of 95%<br/><br/>
-
-                  Created an XGB ranker algorithm using several invoice and customer features that achieves a top-1 accuracy of 89% for entity search on document text-embeddings based retrieval.
                 </p>
               </div>
             </div>
